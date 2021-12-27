@@ -42,7 +42,7 @@ public class RuleTable {
             this.moves = Arrays.copyOf(moves, moves.length);
         else
             throw new IllegalArgumentException(
-                    "Number of moves must be more than 2 and uneven!");
+                    "Number of moves must be more than 2 and uneven! For example: rock paper scissors");
     }
 
     public RuleTable(String[] moves) throws IllegalArgumentException {

@@ -1,6 +1,4 @@
 import java.security.SecureRandom;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Game extends RuleTable {
@@ -42,7 +40,7 @@ public class Game extends RuleTable {
                     System.out.println("Your move: " + moves[userMove]);
                     System.out.println("Computer move: " + moves[botMove]);
                     System.out.println(winner(userMove));
-                    System.out.println("HMAC key: " + hmac.getKey());
+                    System.out.println("HMAC key: " + hmac.getKey() + "\n\n");
                     break;
                 } else
                     System.out.println("Incorrect input!");
